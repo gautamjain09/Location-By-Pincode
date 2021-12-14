@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp">
+
+    <TextView
+        android:id="@+id/idPlaceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2sp"
+        android:text="Place Name"></TextView>
+
+    <TextView
+        android:id="@+id/idStateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2sp"
+        android:text="State Name"></TextView>
+
+    <TextView
+        android:id="@+id/idStateAbbrevation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2sp"
+        android:text="State Abbrevation"></TextView>
+
+    <TextView
+        android:id="@+id/idLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2sp"
+        android:text="Longitude"></TextView>
+
+    <TextView
+        android:id="@+id/idLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2sp"
+        android:text="Latitude"></TextView>
+
+
+</LinearLayout>
